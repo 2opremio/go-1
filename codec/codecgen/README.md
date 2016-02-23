@@ -21,6 +21,7 @@ The command line format is:
 % codecgen -?
 Usage of codecgen:
   -c="github.com/ugorji/go/codec": codec path
+  -i=false: pass -i to go run (i.e. install package dependencies)
   -o="": out file
   -r=".*": regex for type name to match
   -rt="": tags for go run
